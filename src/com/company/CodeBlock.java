@@ -2,11 +2,19 @@ package com.company;
 
 public class CodeBlock {
     public static void main(String arg[]) {
-        hello();
+        helloWorld();
     }
 
 
-    public static void  hello(){
-        System.out.println("calling static");
+    public static void  helloWorld(){
+        System.out.println("calling hello ");
+    }
+
+    public static void feautreOne(){
+        System.out.println("calling hello ");
+    }
+
+    public static void feautre2(){
+        System.out.println("calling hello ");
     }
 }
