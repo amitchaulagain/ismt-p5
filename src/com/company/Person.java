@@ -7,25 +7,25 @@ package com.company;
 *
 * */
 public class Person extends Mammal {
-    private String firstName;
-    private String lastName;
+    private String fName;
+    private String lName;
     private int age;
 
 
     public String getFirstName() {
-        return firstName;
+        return fName;
     }
 
     public void setFirstName(String firstName) {
-        this.firstName = firstName;
+        this.fName = firstName;
     }
 
     public String getLastName() {
-        return lastName;
+        return lName;
     }
 
     public void setLastName(String lastName) {
-        this.lastName = lastName;
+        this.lName = lastName;
     }
 
     public int getAge() {
