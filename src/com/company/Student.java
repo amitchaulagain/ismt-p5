@@ -25,6 +25,7 @@ public class Student implements MoveInterface, BrainInterface {
 
     @Override
     public final void move() {
+
         System.out.println(" we are moving");
         // pi=3.12;
 
