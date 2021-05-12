@@ -1,4 +1,4 @@
-package com.company.collection;
+package com.company.collection.list;
 
 import java.util.*;
 public class ListIteratorExample1{
