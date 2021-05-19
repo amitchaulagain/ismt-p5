@@ -36,12 +36,12 @@ public class MapExample {
 
         Fruit fruit1 = new Fruit();
         fruit1.setWeight(200);
-        fruit1.setName("apple");
+       // fruit1.setName("apple");
 
 
         Fruit fruit2 = new Fruit();
         fruit2.setWeight(100);
-        fruit2.setName("banana");
+       // fruit2.setName("banana");
 
 
         List<Fruit> fruits = new ArrayList<>();
