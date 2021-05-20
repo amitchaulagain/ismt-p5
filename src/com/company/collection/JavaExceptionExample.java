@@ -1,7 +1,5 @@
 package com.company.collection;
 
-import java.util.Optional;
-
 public class JavaExceptionExample {
 
     static int x = 0;
@@ -14,14 +12,16 @@ public class JavaExceptionExample {
         try {
             Integer x = null;
 
-            if (x != null) {
-                y = x.intValue();
+            y = x.intValue();
 
-            }
 
             System.out.println("Value of y: " + y);
-        } catch (Exception e) {
+        } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println(e);
+        } finally {
+            System.out.println("This code block runs");
+            System.out.println("in spite of");
+            System.out.println("exceptions");
         }
 
 
